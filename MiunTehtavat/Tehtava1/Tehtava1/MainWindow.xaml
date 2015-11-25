@@ -1,0 +1,41 @@
+﻿<Window x:Class="Tehtava1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tehtava1"
+        mc:Ignorable="d"
+        Title="Keski-Suomen Ikkuna OY" Height="350" Width="563.204">
+    <Grid>
+        <TextBox x:Name="txtWindowWidth" HorizontalAlignment="Left" Height="23" Margin="397,35,0,0" TextWrapping="Wrap" Text="1200" VerticalAlignment="Top" Width="120" TextAlignment="Center"/>
+        <TextBox x:Name="txtWindowHeight" HorizontalAlignment="Left" Height="23" Margin="397,64,0,0" TextWrapping="Wrap" Text="900" VerticalAlignment="Top" Width="120" TextAlignment="Center"/>
+        <TextBox x:Name="txtBorderWidth" HorizontalAlignment="Left" Height="23" Margin="397,92,0,0" TextWrapping="Wrap" Text="45" VerticalAlignment="Top" Width="120" TextAlignment="Center"/>
+        <Button x:Name="btnCalculate" Content="LASKE ALA JA PIIRI" HorizontalAlignment="Left" Margin="296,120,0,0" VerticalAlignment="Top" Width="175" Height="49" Click="btnCalculate_Click" FontWeight="Bold"/>
+        <Label x:Name="lbl1" Content="Ikkunan Leveys (L):" HorizontalAlignment="Left" Margin="273,34,0,0" VerticalAlignment="Top" Width="103" Height="23" FontSize="10.667"/>
+        <Label x:Name="lbl2" Content="Ikkunan Korkeus (H):" HorizontalAlignment="Left" Margin="264,63,0,0" VerticalAlignment="Top" Width="112" Height="23" FontSize="10.667"/>
+        <Label x:Name="lbl3" Content="Karmipuun leveys (W):" HorizontalAlignment="Left" Margin="256,91,0,0" VerticalAlignment="Top" Width="120" Height="23" FontSize="10.667"/>
+        <Label x:Name="lbl4" Content="Ikkunan ala (mm2):" HorizontalAlignment="Left" Margin="273,184,0,0" VerticalAlignment="Top" Width="103" Height="23" FontSize="10.667"/>
+        <Label x:Name="lbl5" Content="Karmin piiri:" HorizontalAlignment="Left" Margin="296,231,0,0" VerticalAlignment="Top" Width="80" Height="23" FontSize="10.667"/>
+        <Label x:Name="lbl6" Content="Karmin pinta-ala (mm2):" HorizontalAlignment="Left" Margin="264,259,0,0" VerticalAlignment="Top" Width="128" Height="23" FontSize="10.667"/>
+        <TextBox x:Name="txtWindowSize" HorizontalAlignment="Left" Height="23" Margin="397,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBorderLength" HorizontalAlignment="Left" Height="23" Margin="397,231,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextAlignment="Center" IsEnabled="False"/>
+        <TextBox x:Name="txtBorderSize" HorizontalAlignment="Left" Height="23" Margin="397,260,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" TextAlignment="Center" IsEnabled="False"/>
+        <Rectangle Fill="#FF110A00" HorizontalAlignment="Left" Height="207" Margin="29,63,0,0" Stroke="Black" VerticalAlignment="Top" Width="215"/>
+        <Rectangle Fill="#FFD2FFFD" HorizontalAlignment="Left" Height="190" Margin="37,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="197"/>
+        <Label x:Name="label1" Content="w --&gt;   &lt;--" HorizontalAlignment="Left" Margin="190,128,0,0" VerticalAlignment="Top" FontFamily="Stencil"/>
+        <Label x:Name="label2" Content="&lt;------------------------------------------------------------&gt;" HorizontalAlignment="Left" Margin="32,223,0,0" VerticalAlignment="Top" FontFamily="Stencil"/>
+        <Label x:Name="label3" Content="L" HorizontalAlignment="Left" Margin="75,213,0,0" VerticalAlignment="Top" FontFamily="Stencil"/>
+        <Label x:Name="label5" Content="&lt;-------------------------------------------------------&gt;" HorizontalAlignment="Left" Margin="41,156,0,0" VerticalAlignment="Top" FontFamily="Stencil" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="label6" Content="H" HorizontalAlignment="Left" Margin="115,144,0,0" VerticalAlignment="Top" FontFamily="Stencil"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\bin\Debug\Tehtava3.exe.config
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\obj\Debug\Tehtava3.csprojResolveAssemblyReference.cache
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\obj\Debug\MainWindow.g.cs
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\obj\Debug\App.g.cs
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\obj\Debug\Tehtava3_MarkupCompile.cache
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\obj\Debug\Tehtava3_MarkupCompile.lref
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\bin\Debug\Tehtava3.exe
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\bin\Debug\Tehtava3.pdb
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\obj\Debug\MainWindow.baml
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\obj\Debug\Tehtava3.g.resources
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\obj\Debug\Tehtava3.Properties.Resources.resources
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\obj\Debug\Tehtava3.csproj.GenerateResource.Cache
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\obj\Debug\Tehtava3.exe
+D:\netohjelmointi\Tehtävät\Tehtava3\Tehtava3\obj\Debug\Tehtava3.pdb
