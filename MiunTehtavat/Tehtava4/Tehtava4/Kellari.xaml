@@ -1,0 +1,16 @@
+﻿<Window x:Class="Tehtava4.Kellari"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tehtava4"
+        mc:Ignorable="d"
+        Title="Kellari" Height="294.508" Width="396.796">
+    <Grid>
+        <Button x:Name="btnHaeViinit" Content="Hae Viinit" HorizontalAlignment="Left" Margin="16,10,0,0" VerticalAlignment="Top" Width="116" Height="25" Click="btnHaeViinit_Click"/>
+        <ComboBox x:Name="cmbMaat" HorizontalAlignment="Left" Margin="156,10,0,0" VerticalAlignment="Top" Width="122" Height="25"/>
+        <Label x:Name="lblPath" Content="filepath" HorizontalAlignment="Left" Margin="10,231,0,0" VerticalAlignment="Top" Width="369"/>
+        <DataGrid x:Name="dbWines" Margin="13,66,10,34" AutoGenerateColumns="True">
+        </DataGrid>
+    </Grid>
+</Window>

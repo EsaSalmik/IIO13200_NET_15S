@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pelaajat>
+  <pelaaja>
+    <etunimi>Petteri</etunimi>
+    <sukunimi>Punakuono</sukunimi>
+    <siirtohinta>420</siirtohinta>
+    <joukkue>Kalpa</joukkue>
+  </pelaaja>
+  <pelaaja>
+    <etunimi>Kalmari</etunimi>
+    <sukunimi>Kopopnen</sukunimi>
+    <siirtohinta>1337</siirtohinta>
+    <joukkue>TPS</joukkue>
+  </pelaaja>
+  <pelaaja>
+    <etunimi>Mooses</etunimi>
+    <sukunimi>Kurppa</sukunimi>
+    <siirtohinta>322</siirtohinta>
+    <joukkue>Peräposion Pyllistys</joukkue>
+  </pelaaja>
+</pelaajat>
